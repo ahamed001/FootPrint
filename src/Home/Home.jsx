@@ -8,19 +8,19 @@ const Home = () => {
       id: 1,
       image: require("../Home/Images/Men.jpg"),
       name: "Men's",
-      path: `Men's`
+      path: `MensProduct`
     },
     {
       id: 2,
       image: require("../Home/Images/Women.jpg"),
       name: "Women's",
-      path: `Women's`
+      path: `WomensProduct`
     },
     {
       id: 3,
       image: require("../Home/Images/Kids.jpg"),
       name: "Kid's",
-      path: `Kid's`
+      path: `KidsProduct`
     }
   ]
 
@@ -36,7 +36,7 @@ const Home = () => {
       </p>
 
       <Link to={'/Featured'}>
-        <button className='rounded-full bg-slate-900 text-white px-5 pt-2 pb-2 mt-5 mb-10 md:mt-10 md:mb-16 hover:bg-slate-700'>
+        <button className='rounded-full bg-black text-white px-5 pt-2 pb-2 mt-5 mb-10 md:mt-10 md:mb-16 hover:bg-white hover:text-black hover:font-semibold hover:ring-1 hover:ring-black'>
           Shop Now
         </button>
       </Link>

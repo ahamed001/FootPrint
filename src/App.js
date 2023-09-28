@@ -10,6 +10,9 @@ import Kids from './Kids/Kids';
 import Featured from './Featured/Featured';
 import Joinus from './Register/Joinus';
 import Signin from './Register/Signin';
+import MenP from './Products/MenP';
+import WomenP from './Products/WomenP';
+import KidsP from './Products/KidsP';
 
 function App() {
 
@@ -27,6 +30,9 @@ function App() {
           <Route path="/Featured" element={<Featured/>}/>
           <Route path="/Joinus" element={<Joinus/>}/>
           <Route path="/Signin" element={<Signin/>}/>
+          <Route path="/MensProduct" element={<MenP/>}/>
+          <Route path="/WomensProduct" element={<WomenP/>}/>
+          <Route path="/kidsProduct" element={<KidsP/>}/>
       </Routes>
 
       <Footer/>
